@@ -6,11 +6,11 @@ Este es un proyecto para configurar un servidor Node.js con el motor de plantill
 
 Para comenzar a trabajar con este proyecto, sigue estos pasos:
 
-1. Clona este repositorio en tu máquina local:
+1. Clona este repositorio en tu pc:
    git clone https://github.com/Mayra-Riccardi/websocket
 
 
-2. Instala las dependencias necesarias utilizando npm:
+2. Instalá las dependencias necesarias utilizando:
    npm install
 
 
