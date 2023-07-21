@@ -1,0 +1,119 @@
+[
+  {
+    "title": "producto 6",
+    "descripcion": "Blanco",
+    "price": 40000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "A1e",
+    "stock": 15,
+    "id": 6
+  },
+  {
+    "title": "producto 7",
+    "descripcion": "Gris",
+    "price": 40000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Unicode_0x0032.svg/800px-Unicode_0x0032.svg.png",
+    "code": "A1f",
+    "stock": 18,
+    "id": 7
+  },
+  {
+    "title": "producto 9",
+    "descripcion": "De piso",
+    "price": 60000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "A1h",
+    "stock": 30,
+    "id": 9
+  },
+  {
+    "title": "producto 10",
+    "descripcion": "De pared",
+    "price": 35000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Unicode_0x0032.svg/800px-Unicode_0x0032.svg.png",
+    "code": "A1k",
+    "stock": 22,
+    "id": 10
+  },
+  {
+    "title": "prod 18",
+    "descripcion": "De techo",
+    "price": 50000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "A1gf",
+    "stock": 188,
+    "id": 11
+  },
+  {
+    "title": "prod 2",
+    "descripcion": "De techosssss",
+    "price": 50000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Unicode_0x0032.svg/800px-Unicode_0x0032.svg.png",
+    "code": "A1gff",
+    "stock": 18856,
+    "id": 12
+  },
+  {
+    "title": "prueba de producto 2",
+    "descripcion": "Blanco",
+    "price": 105000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "lupe1",
+    "stock": 23,
+    "id": 13
+  },
+  {
+    "title": "prueba de producto 3",
+    "descripcion": "Blanco",
+    "price": 105000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "lupe4",
+    "stock": 23,
+    "id": 14
+  },
+  {
+    "title": "prueba de producto 5",
+    "descripcion": "Blanco",
+    "price": 1000000000,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "lupe6",
+    "stock": 23,
+    "id": 15
+  },
+  {
+    "title": "prueba de producto 10",
+    "descripcion": "Blanco",
+    "price": 1,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "lupe7",
+    "stock": 23,
+    "id": 16
+  },
+  {
+    "title": "prueba de producto 11",
+    "descripcion": "Blanco",
+    "price": 1,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "lupe12",
+    "stock": 23,
+    "id": 17
+  },
+  {
+    "title": "prueba de producto 15",
+    "descripcion": "Blanco",
+    "price": 1,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "lupe15",
+    "stock": 23,
+    "id": 18
+  },
+  {
+    "title": "prueba de producto 20",
+    "descripcion": "Blanco",
+    "price": 1,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unicode_0x0031.svg/1200px-Unicode_0x0031.svg.png",
+    "code": "lupe20",
+    "stock": 23,
+    "id": 19
+  }
+]
