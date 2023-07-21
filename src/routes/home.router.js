@@ -9,7 +9,10 @@ const productManager = new ProductManager(filePath)
 
 router.get('/', async (req, res) => {
   const products = await productManager.getProductos()
-  res.render('home', {products}); // Renderiza
+  res.render('home', {
+   title: 'Vista de productos Home',
+   products
+   }) // Renderiza
 });
 
 

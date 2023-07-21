@@ -23,7 +23,6 @@ socket.on('updateProducts', (products) => {
         <div class="uk-card-body">
           <h3 class="uk-card-title">${product.title}</h3>
           <h5>$${product.price}</h5>
-          <p>${product.descripcion}</p>
           <button class="uk-button uk-button-secondary uk-button-small">Agregar al carrito</button>
         </div>
       </div>

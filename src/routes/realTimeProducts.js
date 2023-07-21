@@ -9,7 +9,10 @@ const productManager = new ProductManager(filePath)
 
 router.get('/', async (req, res) => {
     const products = await productManager.getProductos()
-    res.render('realTimeProducts', {products})
+    res.render('realtimeproducts', {
+      title: 'Vista de productos con websocket',
+      products
+      })
   })
   
   
@@ -18,7 +21,6 @@ router.get('/', async (req, res) => {
         const newProduct = req.body; // Suponiendo que el nuevo producto se envía en el cuerpo de la solicitud POST
         console.log('new product', newProduct)
         const product = await productManager.addProduct(newProduct);
-      console.log(product)
         if (product) {
           const updatedProducts = await productManager.getProductos();
       
@@ -34,9 +36,6 @@ router.get('/', async (req, res) => {
       console.error(err);
         res.status(500).json({status: 500, message: 'Error processing the request', err });
     }
-   
-  
-    
   });
   
   router.delete('/:id', async (req, res) => {

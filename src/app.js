@@ -10,7 +10,7 @@ const app = express();
 const server = http.createServer(app) // server http montado con express
 const io = new Server(server) // web socket montado en el http
 
-// Agregar el middleware de Socket.io para que 'req.io' esté disponible
+// Agregar el middleware para 'req.io' esté disponible
 app.use((req, res, next) => {
   req.io = io;
   next();
