@@ -90,7 +90,7 @@ Para ejecutar el proyecto, utiliza el siguiente comando:
 
 Luego, abre tu navegador y accede a `http://localhost:8080` para ver la vista "home" con la lista de productos. Para ver la vista "realTimeProducts" con la actualización en tiempo real, accede a `http://localhost:8080/realtimeproducts`.
 
-Recuerdá que al utilizar WebSockets, la vista "realTimeProducts" se actualizará automáticamente cada vez que se agregue o elimine un producto.
+La vista "realTimeProducts" se actualizará automáticamente cada vez que se agregue o elimine un producto.
 
 ## Contribuciones
 Si deseas contribuir a este proyecto, siéntete libre de hacer un pull request. ¡Toda ayuda es bienvenida!
