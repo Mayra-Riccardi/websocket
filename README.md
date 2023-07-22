@@ -45,6 +45,7 @@ Además de las vistas mencionadas, puedes probar las siguientes rutas utilizando
    - Método: POST
    - Endpoint: http://localhost:8080/api/products
    - Envía los datos del nuevo producto en formato JSON en el cuerpo de la solicitud.
+   - Te dejo un producto a continuación
 
   ```json
          {
