@@ -25,7 +25,7 @@ El servidor está configurado para utilizar el motor de plantillas Handlebars y 
 La vista "home.handlebars" muestra una lista de todos los productos agregados hasta el momento. Los datos se renderizan utilizando Handlebars para generar la lista de productos.
 
 ### Real Time Products
-La vista "realTimeProducts.handlebars" vive en el endpoint "/realtimeproducts" en nuestro views router. Al utilizar WebSockets, cada vez que se crea o elimina un producto, la lista se actualizará automáticamente en esta vista, reflejando los cambios en tiempo real sin necesidad de recargar la página.
+La vista "realTimeProducts.handlebars" vive en el endpoint "/realtimeproducts" en views router. Al utilizar WebSockets, cada vez que se crea o elimina un producto, la lista se actualizará automáticamente en esta vista, reflejando los cambios en tiempo real sin necesidad de recargar la página.
 
 ## Otras Rutas y Endpoints
 
