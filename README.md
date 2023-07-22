@@ -1,6 +1,7 @@
 # Proyecto de Configuración con Handlebars y WebSockets
 
-Este es un proyecto para configurar un servidor Node.js con el motor de plantillas Handlebars y la implementación de WebSockets utilizando Socket.IO. El objetivo del proyecto es mostrar una lista de productos en dos vistas diferentes: una vista "home" que utiliza Handlebars y otra vista "realTimeProducts" que funciona con WebSockets para actualizarse en tiempo real.
+Este es un proyecto para configurar un servidor Node.js con el motor de plantillas Handlebars y la implementación de WebSockets utilizando Socket.IO. El objetivo del proyecto es mostrar una lista de productos en dos vistas diferentes: una vista "home" que utiliza Handlebars y otra vista "realTimeProducts" que funciona con WebSockets para actualizarse en tiempo real. A su vez también se puede realizar un CRUD de productos y carritos. 
+Para la persistencia, por el momento utilizo el modulo filesystem.
 
 ## Instalación
 
