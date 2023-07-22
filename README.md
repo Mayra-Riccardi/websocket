@@ -85,20 +85,16 @@ Además de las vistas mencionadas, puedes probar las siguientes rutas utilizando
    - Reemplaza `:id` con el ID del carrito y del producto de compra que deseas agregar.
 
 ## Uso
-Para ejecutar el proyecto, utiliza el siguiente comando:
-   npm start
+Para ejecutar el proyecto, utiliza npm start.
 
 
-Luego, abre tu navegador y accede a `http://localhost:8080` para ver la vista "home" con la lista de productos. Para ver la vista "realTimeProducts" con la actualización en tiempo real, accede a `http://localhost:8080/realtimeproducts`.
+Luego, abrir el navegador y acceder a `http://localhost:8080` para ver la vista "home" con la lista de productos. Para ver la vista "realTimeProducts" con la actualización en tiempo real, accede a `http://localhost:8080/realtimeproducts`.
 
 La vista "realTimeProducts" se actualizará automáticamente cada vez que se agregue o elimine un producto.
 
 ## Contribuciones
 Si deseas contribuir a este proyecto, siéntete libre de hacer un pull request. ¡Toda ayuda es bienvenida!
 
-
-
-¡Espero que este proyecto te sea útil!
 
 
 
