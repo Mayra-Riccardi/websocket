@@ -8,8 +8,8 @@ const router = Router()
 
 router.use('/', HomeRouter)
 router.use('/realtimeproducts', RealTimeProducts)
-router.use('/products', ProductRouter)
-router.use('/carts', CartsRouter)
+router.use('/api/products', ProductRouter)
+router.use('/api/carts', CartsRouter)
 
 
 module.exports = {

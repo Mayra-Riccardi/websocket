@@ -28,7 +28,7 @@ app.set("view engine", "handlebars"); // Establecer Handlebars como motor de pla
 app.use(express.json());
 app.use('/static', express.static(path.join(__dirname + '/public')))
 
-app.use('/api', api);
+app.use('/', api);
 
 // web socket
 io.on('connection', socketManager)
