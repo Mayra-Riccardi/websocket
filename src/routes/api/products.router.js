@@ -40,7 +40,10 @@ router.post("/", async (req, res) => {
       const product = await productManager.addProduct(body);
   
       if (product) {
+        const updatedProducts = await productManager.getProductos();
+        req.io.emit('updateProducts', updatedProducts); // Aquí está la emisión del evento 'updateProducts'
         res.status(200).json({ status: 200, message: 'Product added successfully', product });
+
       } else {
         res.status(400).json({ status: 404, message: 'Failed to add the product' });
       }
@@ -78,7 +81,8 @@ router.delete("/:pid", async (req, res) => {
         if (!product) {
             return res.status(404).json({ status: 404, message: `The product with the id ${id} is not found, please try with a different ID` });
         } 
-
+        const updatedProducts = await productManager.getProductos();
+        req.io.emit('updateProducts', updatedProducts); // Aquí está la emisión del evento 'updateProducts'
         return res.status(200).json({ status: 200, message: `Product with ID: ${id}, successfully deleted` });
     } catch (error) {
         console.log("Error deleting the product", error);
